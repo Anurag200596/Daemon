@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Daemon Cloud IDE 🚀
 
-## Getting Started
+Daemon is a **full-stack AI-powered cloud IDE** built from scratch, designed for developers who want an advanced coding experience entirely in the browser. With AI-assisted coding, in-browser execution, and GitHub integration, Daemon brings a professional IDE to your fingertips.
 
-First, run the development server:
+---
+
+## 🌟 Key Features
+
+### 🤖 AI-Powered Features
+- **AI Code Suggestions & Quick Edit**: Get smart code completions and instant refactoring powered by AI.
+- **AI Agent with File Manipulation Tools**: Automate tasks and make code edits across your project seamlessly.
+- **Live Docs Scraping with Firecrawl**: Context-aware documentation lookup for faster development.
+
+### 🧩 Developer Tools
+- **CodeMirror 6 Editor with Minimap**: Modern editor with syntax highlighting, code folding, and minimap.
+- **In-Browser Execution with WebContainers**: Run your code without leaving the browser, including live previews.
+- **Background Jobs with Inngest**: Handle AI tasks asynchronously for a smooth user experience.
+- **Real-Time Sync with Convex**: All your edits sync instantly across devices.
+
+### 🗄️ Git & SaaS Integration
+- **GitHub Import & Export**: Connect your repositories and manage code directly in Daemon.
+- **Clerk Authentication & Billing**: Secure login and SaaS-ready subscription management.
+- **CodeRabbit PR Reviews**: AI-assisted pull request reviews for cleaner code.
+- **Error Tracking & LLM Monitoring**: Integrated Sentry monitoring for runtime errors and AI suggestions.
+
+### 🛠️ Tech Stack
+- **Frontend & Backend**: Next.js 16 + TypeScript
+- **State Management**: Convex
+- **Editor**: CodeMirror 6
+- **AI Integration**: Claude & Firecrawl
+- **Background Jobs**: Inngest
+- **Auth**: Clerk
+- **Deployment**: Vercel / WebContainers
+
+---
+
+## 🖥️ Demo
+
+Check out a live demo (if deployed):  
+[🔗 Live Demo Link](#)
+
+---
+
+## 📁 Getting Started
+
+1. **Clone the repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/Anurag200596/Daemon.git
+cd Daemon
